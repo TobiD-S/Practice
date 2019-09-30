@@ -1,0 +1,14 @@
+
+Code:
+
+function myBio(myLocation, myProfession, myHobby, myName) {
+
+  var bio = "";
+ bio += "My name is " + myName + ". I am based in " + myLocation + ". I am an accomplished " + myProfession + " who likes " + myHobby + ".";
+  return bio;
+}
+console.log(myBio("Lagos","Software Developer", "swimming", "Tobi"))
+console.log(myBio("Canada","Doctor", "hiking", "Raheem"))
+console.log(myBio("Hawaii","Lifeguard", "surfing", "Ben"))
+
+
