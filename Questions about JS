@@ -1,0 +1,12 @@
+Difference between null and undefined
+
+“undefined” means a variable has been declared but not defined or assigned a value yet, while “null” is an assignment value. It means literally means nothing, and can be assigned to a variable as a representation of no value. Aside from this, they have different types, while “undefined” is a type of undefined, “null” is an object.
+.
+Where can you use “use strict”
+
+“Use strict” is a literal statement that started in ES5, it puts the JS code into strict mode. This strict mode is needed sometimes because of the over-flexibility of JS, which allows the use of variables which were previously not defined. This can be seen as both a pro and a con, as although it allows flexibility, it is not a best practice to go about using variables that were not properly and explicitly declared. Also, it makes sure your code can stand the test of time, as well as prevents the use of keywords that have been set aside for future versions of JS.
+In summary, “use strict” makes it easier to write secure JS codes, that can stand the test of time.
+
+How did “this” change with the “use strict” declaration
+
+The value passed as “this” to a function in strict mode is not forced into being an object. For a normal function, “this” is always an object. This change  in strict mode allows better performance with browsers.    
