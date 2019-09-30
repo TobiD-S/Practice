@@ -1,0 +1,5 @@
+function convTemp(TCel){
+  var TFah = (TCel * (9/5)) +32;
+  return("The temperature in Celsius is " + TCel + " degree Celsius ,and the temperature in Fahrenheit is " + TFah + " degree Fahrenheit")
+}
+console.log(convTemp(50));
